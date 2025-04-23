@@ -44,7 +44,7 @@ You will be prompted to enter the number of tasks, VMs, and their properties, as
 **Example session:**
 
 === Cloud Task Scheduling with NSGA-II ===
-Enter number of tasks:
+Enter number of tasks:<br/>
 Enter number of VMs:
 ...
 Pareto front solutions:
