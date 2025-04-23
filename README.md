@@ -1,39 +1,42 @@
-# Cloud Task Scheduler using NSGA-II
+# ☁️ Cloud Task Scheduler using NSGA-II
 
-## Overview
+## 🧠 Overview
 
-This project implements a multi-objective task scheduling system for cloud computing environments using the NSGA-II (Non-dominated Sorting Genetic Algorithm II) algorithm. It simultaneously optimizes:
-- **Makespan** (total execution time of all tasks)
-- **Cost** (total resource usage cost)
-- **Load Balance** (standard deviation of resource utilization across VMs)
+This project implements a **multi-objective task scheduling system** for cloud environments using the **NSGA-II (Non-dominated Sorting Genetic Algorithm II)**. It simultaneously optimizes:
 
-Users can interactively define tasks, VMs, and algorithm parameters, and visualize the Pareto front of optimal solutions.
+- ⏱ **Makespan** (total execution time)
+- 💰 **Cost** (resource usage cost)
+- ⚖️ **Load Balance** (fair workload distribution)
 
----
-
-## Features
-
-- **Interactive CLI:** Enter the number of tasks, VMs, and their properties at runtime.
-- **Multi-objective Optimization:** Uses NSGA-II to optimize makespan, cost, and load balance.
-- **Pareto Front Visualization:** 3D plot of Pareto-optimal solutions.
-- **Modular Codebase:** Separated into models, algorithm, visualization, and CLI modules.
-- **Unit Tests:** Includes basic tests for core functionality.
-- **Industry-standard Structure:** Ready for collaborative development and CI/CD.
+Users can interactively define tasks, VMs, and algorithm parameters, and visualize the **Pareto front** of optimal solutions.
 
 ---
 
-## Installation
+## ✨ Features
 
-1. **Clone the repository:**
-- git clone https://github.com/Lohit2005/Cloud-Task-Scheduler.git
-- cd Cloud-Task-Scheduler
+- 🖥️ **Interactive CLI** — Define tasks and VMs at runtime via simple prompts.
+- 🎯 **Multi-objective Optimization** — Optimize time, cost, and load balance.
+- 📊 **Pareto Front Visualization** — View 3D plot of trade-offs between objectives.
+- 🧩 **Modular Codebase** — Separated into models, algorithm, CLI, and visualization.
+- 🧪 **Unit Testing** — Basic tests for population handling and objective calculations.
+- 🏗️ **Developer-Friendly Structure** — Ideal for CI/CD integration and contributions.
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Lohit2005/Cloud-Task-Scheduler.git
+   cd Cloud-Task-Scheduler
 
 2. **Install dependencies:**
-- pip install numpy matplotlib pytest
+   ```bash
+   pip install numpy matplotlib pytest
 
 ---
 
-## Usage
+## 🚀 Usage
 
 Run the CLI from the project root:
 `python -m src.cli`
@@ -41,7 +44,7 @@ Run the CLI from the project root:
 You will be prompted to enter the number of tasks, VMs, and their properties, as well as algorithm parameters.
 
 
-**Example session:**
+** 🧾 Example Session**
 
 === Cloud Task Scheduling with NSGA-II ===<br/>
 Enter number of tasks:<br/>
@@ -55,7 +58,7 @@ Show Pareto front 3D plot? (1=Yes, 0=No):<br/>
 
 ---
 
-## Running Tests
+## ✅ Running Tests
 
 To verify the implementation, run:
 pytest tests/
@@ -63,7 +66,7 @@ pytest tests/
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please:
 - Fork the repository
@@ -73,20 +76,20 @@ Contributions are welcome! Please:
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
-- [NSGA-II Algorithm Paper](https://ieeexplore.ieee.org/document/996017)
-- [CloudSim Toolkit](https://cloudsim-plus.org/)
-- [Matplotlib](https://matplotlib.org/) for visualization
+- 📚 [NSGA-II Algorithm Paper](https://ieeexplore.ieee.org/document/996017)
+- ☁️ [CloudSim Toolkit](https://cloudsim-plus.org/)
+- 📈 [Matplotlib](https://matplotlib.org/) for visualization
 
 ---
 
-## Contact
+## 📬 Contact
 
 For questions or support, please contact [lohitsamantula@gmail.com](mailto:lohitsamantula@gmail.com).
