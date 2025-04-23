@@ -15,17 +15,17 @@ This project implements a multi-objective task scheduling system for cloud compu
 
 ### Steps
 1. **Clone the repository**:
-git clone https://github.com/yourusername/cloud-scheduler.git
-cd cloud-scheduler
+- git clone https://github.com/Lohit2005/Cloud-Task-Scheduler.git
+- cd Cloud-Task-Scheduler
 
 2. **Install dependencies**:
-pip install numpy matplotlib
+- pip install numpy matplotlib
 
 
 ## Usage
 
 ### Basic CLI Execution
-python -m src.cli
+`python -m src.cli`
 
 ### Interactive Workflow
 1. You'll be prompted to enter:
@@ -34,10 +34,10 @@ python -m src.cli
    - Algorithm parameters (population size, generations, mutation/crossover rates)
 
 2. Example session:
-   === Cloud Task Scheduling with NSGA-II ===
-   Enter number of tasks: 50
-   Enter number of VMs: 10
-   ...
+   === Cloud Task Scheduling with NSGA-II ===<br/>
+   Enter number of tasks: 50<br/>
+   Enter number of VMs: 10<br/>
+   ...<br/>
 
 3. After optimization, you'll see:
    - Pareto-optimal solutions with their schedules
