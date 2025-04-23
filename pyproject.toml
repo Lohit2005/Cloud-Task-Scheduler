@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloud-scheduler"
+version = "0.1.0"
+description = "Multi-objective Cloud Task Scheduler using NSGA-II"
+authors = [
+    {name = "Your Name", email = "your.email@domain.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21",
+    "matplotlib>=3.5"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov"
+]
