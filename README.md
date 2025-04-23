@@ -26,7 +26,7 @@ Users can interactively define tasks, VMs, and algorithm parameters, and visuali
 
 1. **Clone the repository:**
 git clone https://github.com/Lohit2005/cloud-scheduler.git
-cd cloud-scheduler
+cd Cloud-Task-Scheduler
 
 2. **Install dependencies:**
 pip install numpy matplotlib pytest
