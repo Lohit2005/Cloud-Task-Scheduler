@@ -42,8 +42,8 @@ Users can interactively define tasks, VMs, and algorithm parameters, and visuali
 
 Run the CLI from the project root:
 
-```bash
-python -m src.cli
+   `python -m src.cli`
+
 
 You will be prompted to enter the number of tasks, VMs, and their properties, as well as algorithm parameters.
 
