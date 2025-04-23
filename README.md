@@ -22,31 +22,6 @@ Users can interactively define tasks, VMs, and algorithm parameters, and visuali
 
 ---
 
-## Project Structure
-
-cloud-scheduler/
-├── src/
-│ ├── scheduler/
-│ │ ├── models.py
-│ │ ├── nsga2.py
-│ │ ├── visualization.py
-│ │ └── init.py
-│ ├── cli.py
-│ └── init.py
-├── tests/
-│ └── test_nsga2.py
-├── docs/
-│ └── getting_started.md
-├── .github/
-│ └── workflows/
-│ └── tests.yml
-├── README.md
-├── pyproject.toml
-├── .gitignore
-└── LICENSE
-
----
-
 ## Installation
 
 1. **Clone the repository:**
