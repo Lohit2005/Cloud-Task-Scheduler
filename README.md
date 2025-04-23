@@ -25,12 +25,14 @@ Users can interactively define tasks, VMs, and algorithm parameters, and visuali
 
 ## ⚙️ Installation
 
-1. **Clone the repository**  
+1. **Clone the repository**
+   
    ```bash
    git clone https://github.com/Lohit2005/Cloud-Task-Scheduler.git
    cd Cloud-Task-Scheduler
 
-2. **Install dependencies:**
+3. **Install dependencies:**
+   
    ```bash
    pip install numpy matplotlib pytest
 
@@ -39,7 +41,9 @@ Users can interactively define tasks, VMs, and algorithm parameters, and visuali
 ## 🚀 Usage
 
 Run the CLI from the project root:
-`python -m src.cli`
+
+```bash
+python -m src.cli
 
 You will be prompted to enter the number of tasks, VMs, and their properties, as well as algorithm parameters.
 
