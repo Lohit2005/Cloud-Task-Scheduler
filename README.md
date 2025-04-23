@@ -43,15 +43,15 @@ You will be prompted to enter the number of tasks, VMs, and their properties, as
 
 **Example session:**
 
-=== Cloud Task Scheduling with NSGA-II ===
+=== Cloud Task Scheduling with NSGA-II ===<br/>
 Enter number of tasks:<br/>
-Enter number of VMs:
-...
-Pareto front solutions:
-Schedule (task->VM): [2, 1, 0, ...]
-Objectives: Makespan, Cost, LoadBalance = (3702.0, 140.996, 0.01116)
-...
-Show Pareto front 3D plot? (1=Yes, 0=No):
+Enter number of VMs:<br/>
+...<br/>
+Pareto front solutions:<br/>
+Schedule (task->VM): [2, 1, 0, ...]<br/>
+Objectives: Makespan, Cost, LoadBalance = (3702.0, 140.996, 0.01116)<br/>
+...<br/>
+Show Pareto front 3D plot? (1=Yes, 0=No):<br/>
 
 ---
 
